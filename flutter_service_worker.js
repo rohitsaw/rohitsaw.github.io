@@ -3,41 +3,45 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "f0824d0a86c4bbe28e62fc893b41da4e",
-"/": "f0824d0a86c4bbe28e62fc893b41da4e",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"version.json": "9a4dddba415c9ee5265cd5f5d9963a6a",
-"manifest.json": "16903bfeca52a82e56468f3d1cf29796",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
-"assets/AssetManifest.json": "f3949d960835b0f5a4c4f9bbf9165f26",
-"assets/NOTICES": "076c2d218603daebdb7df2185e98098f",
-"assets/FontManifest.json": "5a6c1ab7a8babfa1a06fc7d33d163b04",
-"assets/fonts/Pacifico-Regular.ttf": "9b94499ccea3bd82b24cb210733c4b5e",
-"assets/fonts/Raleway-VariableFont_wght.ttf": "3b5635ac5d39c28200bf3993d90d09c7",
-"assets/fonts/LeckerliOne-Regular.ttf": "a5038c85831f8de71480980b1f664651",
-"assets/fonts/Raleway-Italic-VariableFont_wght.ttf": "676edc6dcd84e2d64bb6d3f242651d59",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/asset/images/codeforces.jpeg": "641f2013bb450335f4a80a69041a56c2",
-"assets/asset/images/udacity.png": "136d2f15c37fc0048f21f7672361d16f",
-"assets/asset/images/Rohit.jpg": "046569db7d5e3f7545ad00aebdb323fa",
+  "assets/asset/images/atcoder.png": "d3503455a4183551fc64a1fe4983c607",
 "assets/asset/images/codechef.jpg": "dc7b8126e6d7ca46440cadcd373ef1ef",
-"assets/asset/images/linkedin.jpeg": "725fbe667d7ff227b5fbfa042a6ecfbe",
-"assets/asset/images/github.png": "09f5c6ae0d73877c4fc2595170735ff9",
-"assets/asset/images/spoj.jpeg": "f882b6ea0f026f26ecf8b2b99d3df6e0",
+"assets/asset/images/codeforces.jpeg": "641f2013bb450335f4a80a69041a56c2",
 "assets/asset/images/codelist.png": "740a218cf850069c71213f179393c247",
-"assets/asset/images/hackerrank.png": "36a6830d09df60c8c1fe6992f41aa4d3",
 "assets/asset/images/college.png": "6cc48daa112fabf5d87447f191ab4388",
-"assets/asset/images/leetcode.jpg": "ff1c532c8d5a78d9c5a2c89ab4b8176d",
-"assets/asset/images/expensetracker.png": "17ac232a7f87e2c68ee9ded76ca7f8c1",
 "assets/asset/images/coursera.jpeg": "90d02c140db330af01e6cc8e408e7bd5",
-"assets/asset/images/atcoder.png": "d3503455a4183551fc64a1fe4983c607",
+"assets/asset/images/expensetracker.png": "17ac232a7f87e2c68ee9ded76ca7f8c1",
+"assets/asset/images/github.png": "09f5c6ae0d73877c4fc2595170735ff9",
 "assets/asset/images/hackerearth.jpg": "0c2b5c3bd61ee76221c8c97ed8146c3e",
+"assets/asset/images/hackerrank.png": "36a6830d09df60c8c1fe6992f41aa4d3",
+"assets/asset/images/leetcode.jpg": "ff1c532c8d5a78d9c5a2c89ab4b8176d",
+"assets/asset/images/linkedin.jpeg": "725fbe667d7ff227b5fbfa042a6ecfbe",
+"assets/asset/images/Rohit.jpg": "046569db7d5e3f7545ad00aebdb323fa",
+"assets/asset/images/spoj.jpeg": "f882b6ea0f026f26ecf8b2b99d3df6e0",
+"assets/asset/images/udacity.png": "136d2f15c37fc0048f21f7672361d16f",
+"assets/AssetManifest.json": "f3949d960835b0f5a4c4f9bbf9165f26",
+"assets/FontManifest.json": "5a6c1ab7a8babfa1a06fc7d33d163b04",
+"assets/fonts/LeckerliOne-Regular.ttf": "a5038c85831f8de71480980b1f664651",
+"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/fonts/Pacifico-Regular.ttf": "9b94499ccea3bd82b24cb210733c4b5e",
+"assets/fonts/Raleway-Italic-VariableFont_wght.ttf": "676edc6dcd84e2d64bb6d3f242651d59",
+"assets/fonts/Raleway-VariableFont_wght.ttf": "3b5635ac5d39c28200bf3993d90d09c7",
+"assets/NOTICES": "4366167a48d6fb0826d2cb4d616ecf34",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"main.dart.js": "f4e09e285821a0590175f1445ce46634"
+"index.html": "7d2c253deb64969eb2009bde8583402f",
+"/": "7d2c253deb64969eb2009bde8583402f",
+"main.dart.js": "c69ad50dd61afc6ff0a79a02f79f700b",
+"manifest.json": "16903bfeca52a82e56468f3d1cf29796",
+"version.json": "7367c9ca1c69727a8bb09a7d2d21d48c"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -55,7 +59,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
