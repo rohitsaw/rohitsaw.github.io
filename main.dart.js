@@ -67810,7 +67810,7 @@ A.rG.prototype={
 I(a){var s=null
 return A.fK(A.a([A.bi("Publised App",s,s,A.b9(s,s,s,s,s,s,s,s,"Raleway",s,s,40,s,s,B.cE,s,s,!0,s,s,s,s,s,s,s,s),s),A.kc(new A.j1(new A.RQ(),s))],t.p),B.X,B.a4)}}
 A.RQ.prototype={
-$2(a,b){var s=null,r=b.b*0.05,q=A.ahQ(A.a([A.e5(new A.nG(b,"asset/images/codelist.png","https://play.google.com/store/apps/details?id=developer.rohitsaw.codelist",s),s,s),A.e5(new A.nG(b,"asset/images/expensetracker.png",u.t,s),s,s)],t.p),!0,!0,!0),p=!0
+$2(a,b){var s=null,r=b.b*0.05,q=A.ahQ(A.a([A.e5(new A.nG(b,"assets/asset/images/codelist.png","https://play.google.com/store/apps/details?id=developer.rohitsaw.codelist",s),s,s),A.e5(new A.nG(b,"assets/asset/images/expensetracker.png",u.t,s),s,s)],t.p),!0,!0,!0),p=!0
 p=p?B.vI:s
 return new A.oq(new A.a1t(2,r,r,1),q,s,B.am,!1,s,s,p,!1,s,2,B.aw,B.uc,s,B.ad,s)},
 $S:407}
